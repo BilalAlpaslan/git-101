@@ -2,3 +2,6 @@ bu proje git öğrenmek içindir
 
 a özelliği eklendi
 b özelliği eklendi
+
+
+version:
