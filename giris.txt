@@ -4,4 +4,6 @@ a özelliği eklendi
 b özelliği eklendi
 
 
-version: a:5
+
+version: a+b  v5.0
+
