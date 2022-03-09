@@ -1,0 +1,116 @@
+- git init
+- git status
+
+index.txt
+- git status
+- git add .
+- git commit -m "index.txt eklendi"
+- git status
+
+-git log
+
+index.txt > merhaba  hoşgeldiniz
+- git add .
+- git commit -m "başlık eklendi"
+- git log
+
+
+index.txt > a özelliği eklendi  (3 adet de cümle ekle sonrası için)
+- git add .
+- git commit -m "a eklendi"
+
+index.txt > b özelliği eklendi
+- git add .
+- git commit -m "b eklendi"
+
+- git revert {id}
+- git log
+- git log -n 1
+- git revert id
+
+reverte revert yap :D
+
+- git reset --hard {id}
+- git log -n 1
+- git reset --hard id
+
+- git diff {id}..{id}
+- git diff {id}..{id} index.txt
+
+----------------------------------------------  
+
+- git branch
+-git branch c   (oluşturma)
+- git branch
+
+- git checkout c   (geçiş)
+- git checkout master
+
+- git checkout -b d  (oluşturma)
+- git checkout -D d  (silme)
+- git branch
+
+- git checkout c 
+index.txt > c özelliği eklendi
+- git add .
+- git commit -m "c eklendi"
+- git checkout master
+
+- git checkout c 
+d için branch(headerdan) ve index de değişiklik
+
+
+header a geç
+ekleme yap
+- git stash
+- git stash list
+- git stash clear
+
+ birdaha ekle
+- git stash
+- git stash pop
+
+- git stash
+- git stash apply stash@{0}
+
+
+----------------------------
+c de iken değişiklik yap
+- git checkout master
+master a geç
+
+- git merge c (masterda iken)
+- git log (master+c)
+
+dı kontrol et geri master a gel
+- git merge --squash d   (değişiklikler commit olarak eklenmiyecek biz commitleyecez)
+- git commit -m "d master ile birleşti"
+
+git flow (eklenti)
+
+git reset --hard   (geri dön)
+- git rebase c  (commit bırakmadan uyguluyor)
+
+
+conflict çıkar
+ab-
+-bc
+abc
+
+maset a geç
+- git merge c    (commiti unut sonra düzelt)
+
+- git merge --abort (iptal)
+
+
+
+
+
+
+
+
+
+
+
+
+
