@@ -5,5 +5,4 @@ b özelliği eklendi
 
 
 
-version: a+b  v5.0.1
-
+version: a:4
