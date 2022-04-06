@@ -1,1 +1,2 @@
 d
+stajyer tarafindan eklendi
