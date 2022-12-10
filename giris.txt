@@ -5,3 +5,5 @@ b özelliği eklendi
 
 
 version a-b 4
+
+yeni eklendi
