@@ -5,5 +5,5 @@ def fact(n):
     else:
         return n * fact(n-1)
 
-func add(x, y):
+def add(x, y):
     return x + y
